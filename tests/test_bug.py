@@ -1,3 +1,6 @@
-print("hello, World!")
-sleep(3)
-print("goodbye, World!")
+from time import sleep
+
+def test_delay():
+    print("hello, World!")
+    sleep(3)
+    assert True
